@@ -1,0 +1,11 @@
+{
+  "name": "ads_sim",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "streaming-worker": "*",
+    "through": "^2.3.8"
+  }
+}
