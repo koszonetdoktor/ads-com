@@ -9,6 +9,9 @@ myWorker.to.emit("value", 10);
 myWorker.from.on("integer", function(resp) {
     console.log("event response: ", resp);
 })
+myWorker.from.on("index", function(resp) {
+    console.log("index: ", resp);
+})
 
 myWorker.from.on("name", function(resp) {
     console.log("response_name: ", resp);
